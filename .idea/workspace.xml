@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c633eba0-3873-4eda-a533-025175b5bb2d" name="Default Changelist" comment="" />
+    <list default="true" id="c633eba0-3873-4eda-a533-025175b5bb2d" name="Default Changelist" comment="時間ストップ・リセット機能追加">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ajsF5LwxO7lgjvV24SFkTyaMWS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +37,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -42,11 +52,40 @@
       <option name="presentableId" value="Default" />
       <updated>1587260230084</updated>
       <workItem from="1587260231887" duration="1013000" />
-      <workItem from="1587261301407" duration="3250000" />
+      <workItem from="1587261301407" duration="5845000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="時間ストップ・リセット機能追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="時間ストップ・リセット機能追加" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="314" y="175" key="CommitChangelistDialog2" timestamp="1587350707393">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="314" y="175" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587350707393" />
+    <state x="870" y="100" width="710" height="850" key="DiffContextDialog" timestamp="1587350009244">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="870" y="100" width="710" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587350009244" />
+    <state x="946" y="100" width="634" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587298915103">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="946" y="100" width="634" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587298915103" />
   </component>
 </project>
