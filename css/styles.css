@@ -1,34 +1,65 @@
 body {
     font-family: "Courier New", monospace;
-    font-size: 14px;
-    background: #eee;
+    font-size: 16px;
+    background: #ddd;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+header .title {
+    font-size: 2rem;
+    color: #111111;
+    user-select: none;
+}
+
+header .container {
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+header p {
+    user-select: none;
 }
 
 .container {
-    margin: 20px auto;
-    width: 270px;
     background: #fff;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 
 #timer {
-    background: #ddd;
+    background: #999;
     height: 120px;
     line-height: 120px;
-    font-size: 40px;
-    margin-bottom: 15px;
+    font-size: 45px;
+    margin-bottom: 30px;
+    user-select: none;
 }
 
 .btn {
     width: 80px;
-    height: 45px;
-    line-height: 45px;
-    background: #ddd;
+    height: 60px;
+    line-height: 60px;
+    background: #888;
     font-weight: bold;
-    cursor: pointer;
     /* テキスト選択できない様にする */
     user-select: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 0 #000000;
 }
 
 .controls {
@@ -39,4 +70,8 @@ body {
 /* このクラスをdiv要素につけたり外したりする */
 .inactive {
     opacity: 0.6;
+}
+
+.color {
+    background: #ff0000;
 }

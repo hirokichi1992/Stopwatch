@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587260230084</updated>
       <workItem from="1587260231887" duration="1013000" />
-      <workItem from="1587261301407" duration="8494000" />
+      <workItem from="1587261301407" duration="17340000" />
     </task>
     <task id="LOCAL-00001" summary="時間ストップ・リセット機能追加">
       <created>1587350807189</created>
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587350807189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="見た目調整">
+      <created>1587363424018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587363424018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,21 +88,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="時間ストップ・リセット機能追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="時間ストップ・リセット機能追加" />
+    <MESSAGE value="見た目調整" />
+    <option name="LAST_COMMIT_MESSAGE" value="見た目調整" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="175" key="CommitChangelistDialog2" timestamp="1587350806897">
+    <state x="314" y="175" key="CommitChangelistDialog2" timestamp="1587363423850">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="314" y="175" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587350806897" />
-    <state x="870" y="100" width="710" height="850" key="DiffContextDialog" timestamp="1587350009244">
+    <state x="314" y="175" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587363423850" />
+    <state x="0" y="0" width="1680" height="1050" key="DiffContextDialog" timestamp="1587363419245">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="870" y="100" width="710" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587350009244" />
-    <state x="825" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587350809934">
+    <state x="0" y="0" width="1680" height="1050" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587363419245" />
+    <state x="825" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587363426872">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="825" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1587350809934" />
+    <state x="825" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1587363426872" />
     <state x="946" y="100" width="634" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587298915103">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <title>Stopwatch</title>
     <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+    <header>
+        <div class="title">残念タイマー</div>
+        <div class="container">
+                <img src="img/timer.png" alt="ストップウォッチの画像">
+        </div>
+        <p>10秒ぴったりで止めると...？！</p>
+    </header>
     <div class="container">
-        <div id="timer">00:00.000</div>
+        <div id="timer">00:00.00</div>
         <div class="controls">
-            <div class="btn" id="start">Start</div>
-            <div class="btn" id="stop">Stop</div>
-            <div class="btn" id="reset">Reset</div>
+            <div class="btn" id="start">スタート</div>
+            <div class="btn" id="stop">ストップ</div>
+            <div class="btn" id="reset">リセット</div>
         </div>
     </div>
-
-    <script src="js/main.js">
-
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>

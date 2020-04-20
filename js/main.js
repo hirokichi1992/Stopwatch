@@ -26,7 +26,7 @@
         // 10msごとにcountUp()を実行
         timeoutId = setTimeout(() => {
             countUp();
-        }, 10);
+        }, 1);
     }
 
     // 開始前の状態
@@ -48,9 +48,27 @@
     // ストップを押した後の状態
     // .inactiveクラスのつけ外しで表示切り替え
     function setButtonStateStopped(){
-        start.classList.remove('inactive');
+        start.classList.add('inactive');
         stop.classList.add('inactive');
         reset.classList.remove('inactive');
+    }
+
+    // 10秒ぴったりに止めた時の状態
+    function setTimerColor() {
+        if (timer.textContent === '00:10.000') {
+            timer.style.background = '#0000f0';
+            timer.style.color = '#ffffff';
+            timer.textContent = 'すごい';
+        } else {
+            timer.style.background = '#f00000';
+            timer.style.color = '#ffffff';
+            timer.textContent = '残念！';
+        }
+    }
+
+    function resetTimerColor() {
+        timer.style.background = '';
+        timer.style.color = '';
     }
 
     // ボタンの状態を初期状態に
@@ -73,6 +91,7 @@
         if (stop.classList.contains('inactive') === true){
             return;
         }
+        setTimerColor();
         setButtonStateStopped();
         clearTimeout(timeoutId);
         elapsedTime += Date.now() - startTime;
@@ -84,6 +103,7 @@
         if (reset.classList.contains('inactive') === true){
             return;
         }
+        resetTimerColor();
         setButtonStateInitial();
         timer.textContent = '00:00.000';
         elapsedTime = 0;
