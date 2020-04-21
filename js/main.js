@@ -1,10 +1,12 @@
 'use strict';
 
 {
+    // 定数設定
     const timer = document.getElementById('timer');
     const start = document.getElementById('start');
     const stop = document.getElementById('stop');
     const reset = document.getElementById('reset');
+    const log = document.getElementById('tbody');
 
     // ボタンを押した時点での時刻
     let startTime;
@@ -26,7 +28,7 @@
         // 10msごとにcountUp()を実行
         timeoutId = setTimeout(() => {
             countUp();
-        }, 1);
+        }, 10);
     }
 
     // 開始前の状態
@@ -53,22 +55,43 @@
         reset.classList.remove('inactive');
     }
 
-    // 10秒ぴったりに止めた時の状態
+    // 止めた時間によってタイマーに色をつける
     function setTimerColor() {
-        if (timer.textContent === '00:10.000') {
+        if (timer.textContent === '00:01.000') {
             timer.style.background = '#0000f0';
             timer.style.color = '#ffffff';
-            timer.textContent = 'すごい';
+            timer.textContent = 'Success！';
         } else {
             timer.style.background = '#f00000';
             timer.style.color = '#ffffff';
-            timer.textContent = '残念！';
+            timer.textContent = 'Failed...';
         }
     }
 
+    // ストップ後に設定された色のリセット
     function resetTimerColor() {
         timer.style.background = '';
         timer.style.color = '';
+    }
+
+    // Log表示
+    function setLog() {
+        // div要素の作成
+        let tr = document.createElement('tr');
+        tr.innerHTML =  '<tr><td>' + getDate() + '</td><td>---</td><td>' + timer.textContent + '</td></tr>';
+
+        // 先頭にtrを追加
+        log.insertBefore(tr, log.firstChild);
+    }
+
+    // Log表示用時間取得
+    function getDate() {
+        // 現在の時刻が入る（Moment.js）
+        let m = moment();
+        // 時刻フォーマット設定
+        let output = m.format('YYYY.MM.DD HH:mm:ss');
+
+        return output;
     }
 
     // ボタンの状態を初期状態に
@@ -91,6 +114,7 @@
         if (stop.classList.contains('inactive') === true){
             return;
         }
+        setLog();
         setTimerColor();
         setButtonStateStopped();
         clearTimeout(timeoutId);

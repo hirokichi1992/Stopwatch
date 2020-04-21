@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c633eba0-3873-4eda-a533-025175b5bb2d" name="Default Changelist" comment="">
+    <list default="true" id="c633eba0-3873-4eda-a533-025175b5bb2d" name="Default Changelist" comment="1秒で止めるゲームに変更＆デザイン変更＆Log機能追加">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -53,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587260230084</updated>
       <workItem from="1587260231887" duration="1013000" />
-      <workItem from="1587261301407" duration="17340000" />
+      <workItem from="1587261301407" duration="26761000" />
     </task>
     <task id="LOCAL-00001" summary="時間ストップ・リセット機能追加">
       <created>1587350807189</created>
@@ -69,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587363424018</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="10秒で止めるゲームに起動修正（思いつき）">
+      <created>1587379207062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587379207062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,21 +98,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="時間ストップ・リセット機能追加" />
     <MESSAGE value="見た目調整" />
-    <option name="LAST_COMMIT_MESSAGE" value="見た目調整" />
+    <MESSAGE value="10秒で止めるゲームに起動修正（思いつき）" />
+    <MESSAGE value="1秒で止めるゲームに変更＆デザイン変更＆Log機能追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="1秒で止めるゲームに変更＆デザイン変更＆Log機能追加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="175" key="CommitChangelistDialog2" timestamp="1587363423850">
+    <state x="743" y="198" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1587433392540">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="314" y="175" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587363423850" />
+    <state x="743" y="198" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587433392540" />
+    <state x="812" y="149" key="CommitChangelistDialog2" timestamp="1587434658131">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="812" y="149" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587434658131" />
     <state x="0" y="0" width="1680" height="1050" key="DiffContextDialog" timestamp="1587363419245">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="0" y="0" width="1680" height="1050" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587363419245" />
-    <state x="825" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587363426872">
+    <state x="825" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587379209630">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="825" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1587363426872" />
+    <state x="825" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1587379209630" />
     <state x="946" y="100" width="634" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587298915103">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
